@@ -13,11 +13,13 @@
   <ItemGroup>
     <Folder Include="ApiModels\" />
     <Folder Include="Controllers\" />
+    <Folder Include="Models"/>
+    <Folder Include="Services"/>
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\CS321_W4D2_ExerciseLogAPI.Core\CS321_W4D2_ExerciseLogAPI.Core.csproj" />
-    <ProjectReference Include="..\CS321_W4D2_ExerciseLogAPI.Infrastructure\CS321_W4D2_ExerciseLogAPI.Infrastructur.csproj" />
+    <ProjectReference Include="..\CS321_W4D2_ExerciseLogAPI.Infrastructur\CS321_W4D2_ExerciseLogAPI.Infrastructur.csproj" />
   </ItemGroup>
 </Project>
 
